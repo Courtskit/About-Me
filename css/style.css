@@ -1,0 +1,16 @@
+h1 {
+  color: darkgray;
+  font-size: 2em;
+}
+
+li {
+  color: darkcyan;
+}
+
+#paragraph {
+  background-color: rgba(248, 248, 255, 0.596);
+}
+
+.characteristics {
+  color: rgb(197, 217, 255);
+}
