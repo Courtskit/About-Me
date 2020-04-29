@@ -58,3 +58,6 @@ if (fromWestCoast === 'no' || fromWestCoast === 'n') {
   alert(userName + ', how did you know? I am from South Carolina!');
   // console.log(userName + ' answered correctly.');
 };
+
+alert('I hope enjoyed learning a few facts about me ' + userName + '. Thanks for visiting my site.')
+
