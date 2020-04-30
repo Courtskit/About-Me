@@ -40,7 +40,7 @@ function question12345() {
     'Nope! I am from South Carolina but I do love it here in the Pacific North West.'
   ];
 
-//   // Questions 1-5 loop
+  // Questions 1-5 loop
 
   for (var i = 0; i < questionArray.length; i++) {
     var answer = prompt(questionArray[i]);
