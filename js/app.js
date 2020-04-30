@@ -34,7 +34,7 @@ if (likeMath === 'no' || likeMath === 'n') {
 // Asks user if I like to run
 var likeToRun = prompt('I also enjoy eating healthy and working out. Do you think that I like to run?').toLowerCase();
 if (likeToRun === 'yes' || likeToRun === 'y') {
-  alert('Absolutly not! Running is so hard for me. Good guess though.');
+  alert('Absolutely not! Running is so hard for me. Good guess though.');
   // console.log(userName + ' answered incorrectly.');
 }
 if (likeToRun === 'no' || likeToRun === 'n') {
@@ -47,7 +47,7 @@ if (likeToRun === 'no' || likeToRun === 'n') {
 // Asks user if they think I like coffee
 var likeCoffee = prompt('Would you guess that I like coffee?').toLowerCase();
 if (likeCoffee === 'yes' || likeCoffee === 'y') {
-  alert('Good answer, I LOVE coffee! ');
+  alert('Good answer. You are right. I LOVE coffee! ');
   score++;
   // console.log(userName + ' answered correctly.');
 }
@@ -73,16 +73,16 @@ var numberGame = 4;
 for (var i = 0; i < 4; i++) {
   var guess = prompt('Guess my favorite number from 1-10?');
   if (guess == numberGame) {
-    alert('You are correct! Great guess.');
+    alert('You are correct! Great job.');
     score++;
     break;
   } else if (guess < numberGame) {
-    alert('Wrong. You are too low!');
+    alert('Not it! You are too low! Please try again.');
   } else if (guess > numberGame) {
-    alert('Wrong. You are too high!');
+    alert('Nope. You are too high! Please try again.');
   }
   if (i === 3) {
-    alert('You lost. The correct answer is 4.');
+    alert('Good try! The correct answer is 4.');
   }
 }
 
@@ -95,7 +95,7 @@ for (var i = 0; i < 6; i++) {
     score++;
     break;
   } else {
-    console.log('Nope.');
+    console.log('Nope, good guess though.');
   }
   if (i === 5) {
     alert('Good try. My favorite colors are blue, green, and yellow.');
@@ -103,10 +103,17 @@ for (var i = 0; i < 6; i++) {
 }
 
 
-
-
-
-
 alert('I hope enjoyed learning a few facts about me, ' + userName + '. You scored ' + score + ' out of 7. Thanks for visiting my site!');
 
 
+
+// function userResponse(){
+//   var userAnswer = 'yes';
+//   if(userAnswer === 'yes'){
+//     console.log('user answered yes');
+//   } else {
+//     console.log('user answered no');
+//   }
+// }
+
+// userResponse();
