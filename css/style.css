@@ -18,7 +18,6 @@ h1 {
   letter-spacing: 5.5px;
   color: rgba(137, 123, 138, 0.89);
   box-shadow: 10px 10px 15px -18px, 0 0px 0px 0;
-  /* box-shadow: .1px 2px 2px 0px; */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -82,7 +81,6 @@ section {
   box-shadow: #7c3ec7 10px 12px 14px -20px, 0 0px 0px 0;
 }
 
-
 .h3 {
   font-size: 20px;
   padding: 14px 0px 8px;
@@ -95,7 +93,6 @@ section {
 li {
   color: rgb(123, 115, 129);
 }
-
 
 footer a{
   position: absolute fixed;
