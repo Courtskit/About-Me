@@ -1,7 +1,6 @@
 * {
   background-color: rgb(252, 248, 255);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size-adjust: inherit;
 }
 
 h1 {
@@ -11,15 +10,16 @@ h1 {
   border-image-slice: 1;
   border-left: .14px dotted #ecdefd;
   border-top: .14px dotted #ecdefd; 
-  font-size: 3.4em;
+  font-size: 2.4em;
   text-align: center;
   width: 50%;
   margin: 40px auto;
-  padding: 18px;
-  letter-spacing: 3px;
+  padding: 14px;
+  letter-spacing: 5.5px;
   color: rgba(137, 123, 138, 0.89);
   box-shadow: 10px 10px 15px -18px, 0 0px 0px 0;
   /* box-shadow: .1px 2px 2px 0px; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h2 {
@@ -27,16 +27,29 @@ h2 {
   font-size: 1.6em;
   padding-bottom: 15px 0px 10px;
   color: rgba(137, 123, 138, 0.801);
-  letter-spacing: 1.8px;
+  letter-spacing: 3.5px;
 }
 
 #bio {
   color: rgb(113, 101, 122);
   padding: 10px;
-  font-size: 1.1em;
-  letter-spacing: .5px;
-  line-height: 28px;
+  font-size: 1.05em;
+  letter-spacing: 1.4px;
+  line-height: 26px;
   width: 85%;
+  position: relative;
+  margin: 5px auto;
+  text-align: center;
+}
+
+p {
+  color: rgb(113, 101, 122);
+  padding: 10px;
+  font-size: 1em;
+  letter-spacing: 1.4px;
+  line-height: 26px;
+  width: 85%;
+  max-width: 850px;
   position: relative;
   margin: 5px auto;
   text-align: center;
@@ -48,11 +61,11 @@ h2 {
   margin: auto;
   margin-bottom: 3%;
   display: flex;
+  max-width: 750px;
 }
 
 section {
   padding: 4px;
-  /* margin: 80px; */
 }
 
 .contentList {
@@ -60,32 +73,29 @@ section {
   text-align: center;
   overflow: auto;
   margin: 10px auto;
-  padding: 2px;
+  padding: 1.8px;
+  padding-bottom: 0px;
   background: linear-gradient(to bottom, rgb(252, 248, 255), #ecdefd);
+  font-size: .84em;
+  letter-spacing: 1.2px;
+  line-height: 22px;
+  box-shadow: #7c3ec7 10px 12px 14px -20px, 0 0px 0px 0;
 }
 
-h3 {
-  font-size: 25px;
-  padding: 18px 0px 12px;
+
+.h3 {
+  font-size: 20px;
+  padding: 14px 0px 8px;
   color: rgba(137, 123, 138, 0.849);
-  letter-spacing: 1.2px;
+  letter-spacing: 1.8px;
+  line-height: 24px;
+  text-align: unset;
 }
 
 li {
   color: rgb(123, 115, 129);
 }
 
-p {
-  color: rgb(113, 101, 122);
-  padding: 10px;
-  font-size: 1.1em;
-  letter-spacing: .5px;
-  line-height: 28px;
-  width: 85%;
-  position: relative;
-  margin: 5px auto;
-  text-align: center;
-}
 
 footer a{
   position: absolute fixed;
@@ -97,4 +107,5 @@ footer a{
   padding: 2.8px;
   margin: 15px 15px;
   background: linear-gradient(to bottom, rgb(252, 245, 255), #ecdefd);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
