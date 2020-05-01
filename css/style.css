@@ -1,38 +1,44 @@
 * {
-  background-color: rgb(252, 245, 255);
+  background-color: rgb(252, 248, 255);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size-adjust: inherit;
 }
 
 h1 {
-  background: linear-gradient(to bottom, rgb(250, 246, 253), #ecdefd);
+  background: linear-gradient(to bottom right, rgb(252, 248, 255)50%, #ecdefd);
+  border: 1px solid;
+  border-image-source: linear-gradient(to bottom right, rgb(252, 248, 255), #ecdefd 100%);
+  border-image-slice: 1;
+  border-left: .14px dotted #ecdefd;
+  border-top: .14px dotted #ecdefd; 
   font-size: 3.4em;
   text-align: center;
-  border: 4px double rgb(255, 255, 255);
-  border-radius: 6px;
   width: 50%;
   margin: 40px auto;
   padding: 18px;
   letter-spacing: 3px;
   color: rgba(137, 123, 138, 0.89);
+  box-shadow: 10px 10px 15px -18px, 0 0px 0px 0;
+  /* box-shadow: .1px 2px 2px 0px; */
 }
 
 h2 {
   text-align: center;
-  font-size: 1.8em;
-  padding-bottom: 10px 0px 20px;
+  font-size: 1.6em;
+  padding-bottom: 15px 0px 10px;
   color: rgba(137, 123, 138, 0.801);
-  letter-spacing: 1.6px;
+  letter-spacing: 1.8px;
 }
 
 #bio {
   color: rgb(113, 101, 122);
-  padding: 30px 100px;
+  padding: 10px;
   font-size: 1.1em;
   letter-spacing: .5px;
   line-height: 28px;
   width: 85%;
   position: relative;
-  margin: 10px 0px 25px;
+  margin: 5px auto;
   text-align: center;
 }
 
@@ -54,7 +60,8 @@ section {
   text-align: center;
   overflow: auto;
   margin: 10px auto;
-  background: linear-gradient(to bottom, rgb(252, 245, 255), #ecdefd);
+  padding: 2px;
+  background: linear-gradient(to bottom, rgb(252, 248, 255), #ecdefd);
 }
 
 h3 {
@@ -70,14 +77,14 @@ li {
 
 p {
   color: rgb(113, 101, 122);
-  padding: 30px 100px;
+  padding: 10px;
   font-size: 1.1em;
   letter-spacing: .5px;
   line-height: 28px;
   width: 85%;
   position: relative;
-  margin: 10px 0px 25px;
-  text-align: center left;
+  margin: 5px auto;
+  text-align: center;
 }
 
 footer a{
